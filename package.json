@@ -1,31 +1,31 @@
 {
-  "name": "chat",
-  "version": "1.0.0",
-  "description": "node js chat application",
-  "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
-  "type": "commonjs",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Zeyad-Hegazy/node-chat.git"
-  },
-  "keywords": [
-    "chat",
-    "node"
-  ],
-  "author": "zeyad-hegazy",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Zeyad-Hegazy/node-chat/issues"
-  },
-  "homepage": "https://github.com/Zeyad-Hegazy/node-chat#readme",
-  "dependencies": {
-    "mime": "^4.0.0",
-    "socket.io": "^4.7.2"
-  }
+	"name": "chat",
+	"version": "1.0.0",
+	"description": "node js chat application",
+	"main": "server.js",
+	"directories": {
+		"lib": "lib"
+	},
+	"type": "commonjs",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Zeyad-Hegazy/node-chat.git"
+	},
+	"keywords": [
+		"chat",
+		"node"
+	],
+	"author": "zeyad-hegazy",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Zeyad-Hegazy/node-chat/issues"
+	},
+	"homepage": "https://github.com/Zeyad-Hegazy/node-chat#readme",
+	"dependencies": {
+		"mime": "^4.0.0",
+		"socket.io": "^4.7.2"
+	}
 }

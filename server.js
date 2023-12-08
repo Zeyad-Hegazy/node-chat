@@ -40,6 +40,7 @@ function serveStatic(response, cache, absPath) {
 }
 
 const server = http.createServer(function (request, response) {
+	console.log("Request received");
 	let filePath;
 
 	if (request.url === "/") {
@@ -52,6 +53,6 @@ const server = http.createServer(function (request, response) {
 	serveStatic(response, cache, absPath);
 });
 
-server.listen(3000, function () {
-	console.log("Server listening on port 3000.");
+server.listen(6000, function () {
+	console.log("Server listening on port 6000.");
 });
