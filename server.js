@@ -62,4 +62,8 @@ server.listen(3000, function () {
 	console.log("Server listening on port 3000.");
 });
 
+const { Server } = require("socket.io");
+
+exports.io = new Server(server);
+
 chatServer.listen(server);
